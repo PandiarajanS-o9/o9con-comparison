@@ -1,18 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
-body{
-  background: -webkit-linear-gradient(left, #0072C6, #0072C6);
-  background: linear-gradient(to right, #0072C6, #0072C6);
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-section{
-  margin: 50px;
-}
-
 h1{
   font-size: 30px;
-  color: #FFF;
+  color: #333;
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
@@ -23,13 +11,13 @@ table{
   table-layout: fixed;
 }
 .tbl-header{
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.05);
  }
 .tbl-content{
   height: 75vh;
   overflow-x:auto;
   margin-top: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   overflow-x: hidden;
 }
 th{
@@ -37,7 +25,7 @@ th{
   text-align: left;
   font-weight: 400;
   font-size: 14px;
-  color: #FFF;
+  color: #333;
   text-transform: uppercase;
 }
 
@@ -47,12 +35,12 @@ td{
   vertical-align:middle;
   font-weight: 300;
   font-size: 14px;
-  color: #FFF;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.1);;
+  color: #333;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.05);
 }
 
 td i {
-  color: #FFF;
+  color: #333;
   font-size: 24px !important;
   }
 
@@ -64,8 +52,8 @@ td i {
   padding-right: 0px;
   width: 100%;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.05);
-  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #333;
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -73,6 +61,20 @@ td i {
 
 .section-title p {
   margin-left: 16px;
+}
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
+body{
+  background: -webkit-linear-gradient(left, #FFF, #FFF);
+  background: linear-gradient(to right, #FFF, #FFF);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+section{
+  margin: 50px;
 }
 
 /* for custom scrollbar for webkit browser*/
@@ -83,8 +85,8 @@ td i {
 ::-webkit-scrollbar-track {
   margin-top: 8px;
   margin-bottom: 8px;;
-    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); 
 } 
 ::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.25);  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.25);  
 }
